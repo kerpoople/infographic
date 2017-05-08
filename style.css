@@ -1,0 +1,106 @@
+@font-face { font-family: Arcade; src: url('Arcade.tff'); }
+
+body {
+		background: #fff; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#fff, #000); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#fff, #000); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#fff, #000); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#fff, #000); /* Standard syntax */
+		font-family: 'Baloo', cursive;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	font-family: 'Monofett', cursive;
+	/*font-family: 'Montserrat Subrayada', sans-serif;
+	font-family: 'VT323', monospace;
+	font-family: 'Londrina Shadow', cursive;*/
+	font-size: 100px;
+	color: magenta;
+	text-align: center;
+	margin-top: 100px;
+}
+
+#icons {
+	text-align: center;
+	margin: 100px;
+	margin-top: 100px;
+}
+
+#pc {
+	margin: 100px 20px;
+}
+
+
+
+#PCinfo img {
+
+}
+
+h3 {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+button {
+	border: none;
+	position: static;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+button:focus {outline:0;}
+
+
+.flex-container {
+		height: 800px;
+    margin: 100px 0;
+    display: -webkit-flex;
+    display: flex;
+		text-align: center;
+
+
+}
+
+.flexitem {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	width: 250px;
+
+
+}
+
+.flexitem p {
+	display: none;
+
+}
+
+ol {
+	color: #fff;
+}
+
+#gender_male {
+	display: none;
+	margin-left: 20px;
+	margin-right: 15px;
+	color: #5680ed;
+}
+#gender_female {
+	display: none;
+	margin-left: 20px;
+	margin-right: 15px;
+	color: #c439b2;
+}
+
+#top_10 {
+	display: none;
+	text-align: left;
+}
+
+#timegraph, #timegraph2 {
+	margin: 0;
+}
