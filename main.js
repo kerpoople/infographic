@@ -45,16 +45,17 @@ $(document).ready(function() {
   $("#likesbutton").click(function() {
     $("#like_text").text("Top 10 best selling games of all time.");
     $("#like_text").css({color: '#ec008c'});
-    $("ol").append("<li>Tetris</li>",
-    "<li>Minecraft</li>",
-    "<li>Wii Sports</li>",
-    "<li>Grand Theft Auto V</li>",
-    "<li>Super Mario Bros</li>",
-    "<li>Mario Kart Wii</li>",
-    "<li>Wii Sports Resorts</li>",
-    "<li>Pokemon Red, Green & Blue</li>",
-    "<li>New Super Mario Bros</li>",
-    "<li>The Elder Scrolls V: Skyrim</li>");
+    $("ol").html(
+      "<li>Tetris</li>" +
+      "<li>Minecraft</li>"+
+      "<li>Wii Sports</li>" +
+      "<li>Grand Theft Auto V</li>" +
+      "<li>Super Mario Bros</li>" +
+      "<li>Mario Kart Wii</li>" +
+      "<li>Wii Sports Resorts</li>" +
+      "<li>Pokemon Red, Green & Blue</li>" +
+      "<li>New Super Mario Bros</li>" +
+      "<li>The Elder Scrolls V: Skyrim</li>");
     $("#top_10").animate({
           height: 'toggle'
         });
