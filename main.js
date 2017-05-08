@@ -39,7 +39,6 @@ $(document).ready(function() {
     $("#gender_female").animate({
           height: 'toggle',
         });
-
   });
 
   $("#likesbutton").click(function() {
